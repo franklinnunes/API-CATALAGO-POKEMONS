@@ -18,7 +18,7 @@ router.use(authentication)
 router.get('/perfil', getProfile)
 
 router.post('/pokemon', createPokemon)
-router.patch('/pokemon/:id', updateApelido)
+router.put('/pokemon/:id', updateApelido)
 router.get('/pokemon', getAllPokemons)
 router.get('/pokemon/:id', getPokemonId)
 router.delete('/pokemon/:id', deletePokemon)
