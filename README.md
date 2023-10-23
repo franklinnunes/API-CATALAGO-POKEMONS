@@ -2,6 +2,12 @@
 
 Este projeto é uma API que permite aos usuários catalogar seus Pokemons. A API possui autenticação, garantindo que cada usuário logado possa gerenciar seus próprios Pokemons.
 
+## Instalar dependencias:
+npm install
+
+## Iniciar o projeto: 
+npm run dev
+
 ## Requisitos
 
 ### Banco de Dados
